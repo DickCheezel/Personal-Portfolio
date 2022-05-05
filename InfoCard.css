@@ -1,0 +1,50 @@
+.profile {
+    padding-top: 15vh;
+}
+
+.infoCard {
+    width: 55vw;
+    height: auto;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.profileImg {
+    max-width: 150px;
+    align-items: center;
+    display: flex;
+    border-radius: 50%;
+    margin-left: 15vw;
+}
+
+.infoCardTitle {
+    display: flex;
+    align-items: center;
+    padding-top: 15vh;
+}
+
+.infoCardTitleText {
+    margin-left: 10vh;
+}
+
+#titleName {
+    margin: 0;
+    font-size: 2.5vw;
+}
+
+#subtitle {
+    font-size: 1.5vw;
+    font-family: 'Raleway', sans-serif;
+}
+
+#infoWriteup {
+    font-size: 1.5vw;
+    padding-left: 8vh;
+    padding-right: 5vh;
+    padding-top: 7vh;
+    padding-bottom: 10vh;
+}
+
+#infoWriteup,p {
+    margin:0;
+}

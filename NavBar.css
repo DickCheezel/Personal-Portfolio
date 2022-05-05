@@ -1,0 +1,23 @@
+.navBar {
+    margin: 0;
+    height: 45px;
+    width: 100vw;
+    position: fixed;
+    align-items: center;
+    display: flex;
+}
+
+.navBar h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+    max-width: 40px;
+}
+
+.links {
+    width: 20vw;
+    display: flex;
+    justify-content: space-between;
+    left: 70vw;
+    position: fixed;
+}

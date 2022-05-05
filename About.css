@@ -1,0 +1,32 @@
+#about-title {
+    padding-top: 20vh;
+    display: flex;
+    justify-content: center;
+    font-size: 4vw;
+    margin-bottom: 0;
+}
+
+.further-info-container {
+    width: 20vw;
+}
+
+.about-further-info {
+    display: flex;
+    justify-content: space-around;
+    font-size: 5vh;
+    padding-bottom: 20vh;
+    align-items: flex-start;
+}
+
+.material-symbols-outlined {
+    font-size: 84px;
+    cursor: default;
+    display: flex;
+    justify-content: center;
+    padding: 3vw;
+}
+
+.about-text {
+    font-size: 1.2vw;
+    justify-content: left;
+}

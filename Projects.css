@@ -1,0 +1,49 @@
+.projects{
+    padding-bottom: 10vh;
+}
+
+#projects-title {
+    padding-top: 10vh;
+    padding-bottom: 5vh;
+    display: flex;
+    justify-content: center;
+    font-size: 4vw;
+    margin: 0;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+a, a:visited, a:hover, a:active {
+    color: inherit;
+}
+
+#projectIcons {
+    cursor: pointer;
+    max-width: min-content;
+    margin: auto;
+}
+
+#projectIcons:hover {
+    opacity: 0.75;
+    transition: 0.5s;
+}
+
+.project-title {
+    margin: 0;
+    text-align: center;
+    font-size: 2vw;
+    margin-bottom: 10px;
+}
+
+.project-writeup {
+    max-width: 65%;
+    margin: auto;
+}

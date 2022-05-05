@@ -1,0 +1,32 @@
+body {
+  cursor: default;
+}
+
+.App {
+  text-align: right;
+}
+
+.App-heading {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 15vmin);
+  cursor: default;
+}
+
+.Heading-text {
+  font-size: calc(10px + 15vmin);
+}
+
+#light-or-dark-mode {
+  font-size: 2vh;
+  font-family: Tahoma;
+  background-color: bisque;
+  border: 1px solid grey;
+  border-radius: 3px;
+  position: fixed;
+  top: 12px;
+  right: 30px;
+}
